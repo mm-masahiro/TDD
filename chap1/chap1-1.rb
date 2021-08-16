@@ -1,14 +1,18 @@
+require 'pry'
+
 class Money
-	def initialize(ammunt_money)
-		@ammunt_money = ammunt_money
+	def initialize(ammount_money)
+		@ammount_money = ammount_money
 	end
 
 	def excahnge(excahnged_momey)
-		money = @ammunt_money
+		money = @ammount_money
 
-		excahnged_momey = money * 2
+		excahnged_money = money * 2
 
-		return excahnged_momey
+		puts excahnged_money
+
+		return excahnged_money
 	end
 end
 
@@ -18,4 +22,4 @@ get_money = gets.to_i
 
 money = Money.new(get_money)
 
-money.excahnge
+money.excahnge(get_money)
