@@ -5,14 +5,8 @@ class Money
 		@ammount_money = ammount_money
 	end
 
-	def excahnge(excahnged_momey)
-		money = @ammount_money
-
-		excahnged_money = money * 2
-
-		puts excahnged_money
-
-		return excahnged_money
+	def excahnge(excahnged_money)
+		return @ammount_money * 2
 	end
 end
 
