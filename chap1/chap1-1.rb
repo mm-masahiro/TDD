@@ -16,4 +16,4 @@ get_money = gets.to_i
 
 money = Money.new(get_money)
 
-money.excahnge(get_money)
+puts money.excahnge(get_money)
